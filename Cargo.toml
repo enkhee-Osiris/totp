@@ -1,0 +1,16 @@
+[package]
+name = "otp"
+version = "0.1.0"
+authors = ["enkhee-Osiris <enkhee.ag@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base32 = "0.4.0"
+base64 = "0.11.0"
+hex = "0.4.1"
+hmac = "0.7.1"
+sha-1 = "0.8.1"
+sha2 = "0.8.1"
+time = "0.2.6"
